@@ -50,6 +50,32 @@ $$\frac{\partial^p u}{\partial t^p} = -D (-\Delta)^{\tfrac{q}{2}}u + r u \left(1
 - $r$: Growth rate
 - $K$: Carrying capacity
 
+
+## Data Source
+
+### Experimental Data
+
+The primary experimental dataset is taken from:
+
+> **Jin W, Shah ET, Penington CJ, McCue SW, Chopin LK, Simpson MJ.** (2016)  
+> *Reproducibility of scratch assays is affected by the initial degree of confluence: experiments, modelling and model selection.*  
+> Journal of Theoretical Biology, 390:136–145.  
+> [DOI: 10.1016/j.jtbi.2015.11.020](https://doi.org/10.1016/j.jtbi.2015.11.020)
+
+This dataset consists of cell density profiles measured over space and time from scratch assay experiments under controlled initial confluence conditions. The raw data are stored in `data/raw/` and are used as the ground truth for all model calibrations.
+
+### Methodological Framework
+
+The parameter estimation and model selection methodology follows:
+
+> **Liu Y, Suh K, Maini PK, Cohen DJ, Baker RE.** (2024)  
+> *Parameter identifiability and model selection for partial differential equation models of cell invasion.*  
+> Journal of the Royal Society Interface, 21(212):20230607.  
+> [DOI: 10.1098/rsif.2023.0607](https://doi.org/10.1098/rsif.2023.0607)
+
+
+
+
 @article{pashapour2024arus,
   title={Data-driven modeling of cell invasion and wound healing with a new adaptive physics-informed neural networks and time-space fractional Fisher-KPP equations},
   author={Pashapour, Mahya and Abbaszadeh, Mostafa and Dehghan, Mehdi},
