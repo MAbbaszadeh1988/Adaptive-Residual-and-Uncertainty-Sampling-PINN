@@ -1,6 +1,6 @@
 # Adaptive-Residual-and-Uncertainty-Sampling-PINN
 
-# ARUS-PINN: Adaptive Residual and Uncertainty Sampling for Physics-Informed Neural Networks
+# ARUS-PINN: Data-driven modeling of cell invasion and wound healing with a new adaptive physics-informed neural networks and time–space fractional Fisher–KPP equations
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -72,13 +72,26 @@ The parameter estimation and model selection methodology follows:
 > *Parameter identifiability and model selection for partial differential equation models of cell invasion.*  
 > Journal of the Royal Society Interface, 21(212):20230607.  
 > [DOI: 10.1098/rsif.2023.0607](https://doi.org/10.1098/rsif.2023.0607)
+>
+> So all dataset are taken from references:
 
+> https://doi.org/10.5281/zenodo.8377953.
+> 
+> https://github.com/liuyue002/woundhealing.
+> 
+> http://dx.doi.org/10.1016/j.jtbi.2015.10.040.
 
+## System Configuration for Model Training
+The codes were executed using two different computational environments. The first environment was the Ferdowsi Cloud, using the computational resources provided by K. N. Toosi University of Technology, equipped with an NVIDIA RTX 3080 Ti GPU, 32 CPU cores, 64 GB of RAM, 200 GB of disk storage, and a shared network bandwidth of 1024 Mb/s. In addition, the computations were performed on the Kaggle platform using two NVIDIA T4 GPUs.
 
+Please cite this paper as follows:
 
-@article{pashapour2024arus,
-  title={Data-driven modeling of cell invasion and wound healing with a new adaptive physics-informed neural networks and time-space fractional Fisher-KPP equations},
+@article{pashapour2026arus,
+  title={ARUS-PINN: Data-driven modeling of cell invasion and wound healing with a new adaptive physics-informed neural networks and time--space fractional Fisher--KPP equations},
   author={Pashapour, Mahya and Abbaszadeh, Mostafa and Dehghan, Mehdi},
   journal={Engineering Analysis with Boundary Elements},
-  year={2024}
+  volume={192},
+  pages={106941},
+  year={2026},
+  publisher={Elsevier}
 }
